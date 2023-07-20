@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import string
 
 path_roi = '' # Path to directory with rois for plot profiles
 roi1_avg = pd.read_csv(f'{path_roi}Values_avg_roi1.csv')
